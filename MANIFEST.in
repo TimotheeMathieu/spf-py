@@ -1,0 +1,2 @@
+recursive-include spf_py *.css
+recursive-include spf_py *.js
