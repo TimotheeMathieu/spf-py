@@ -22,6 +22,7 @@ I included some examples in the `examples` folder.
 
 ## Usage
 
+Take as input markdown, the html can be constructed with `spf filename.md`.
 
 - The first level of header "#" is the title of the document, The headers "##" to "#####" are transformed to steps.
 - I implemented a small label/reference scheme. The anchor is done using `\slabel{keyword}` in a line containing a step (i.e. the line must begin by "##" or "###" or...) and the reference `\sref{keyword}` will render as an hyper-ref with name the number of the step referenced.
